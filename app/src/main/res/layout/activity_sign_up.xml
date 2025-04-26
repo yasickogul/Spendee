@@ -8,14 +8,14 @@
     android:background="@color/backgroundclr"
     android:backgroundTint="@color/backgroundclr"
     android:padding="16dp"
-    tools:context=".SignUp">
+    tools:context="com.example.spendee.SignUp">
 
     <!-- Title: Create your new account -->
     <TextView
         android:id="@+id/login_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Create your new account"
+        android:text="@string/create_your_new_account"
         android:textSize="30sp"
         android:textStyle="bold"
         android:textColor="#000000"
@@ -30,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Create an account to start looking for the food you like"
+        android:text="@string/create_an_account_to_start_looking_for_the_food_you_like"
         android:textAlignment="center"
         android:textColor="#666666"
         android:textSize="16sp"
@@ -47,11 +47,11 @@
         android:layout_marginTop="48dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/rounded_input"
-        android:hint="Email Address"
+        android:hint="@string/email_address"
         android:inputType="textEmailAddress"
         android:padding="12dp"
         android:elevation="0dp"
-        android:text="Youremail@gmail.com"
+        android:text="@string/youremail_gmail_com"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/login_subtitle" />
@@ -65,11 +65,11 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/rounded_input"
-        android:hint="User Name"
+        android:hint="@string/user_name"
         android:inputType="textPersonName"
         android:padding="12dp"
         android:elevation="0dp"
-        android:text="Your name"
+        android:text="@string/your_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/email_input" />
@@ -83,7 +83,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/rounded_input"
-        android:hint="Password"
+        android:hint="@string/password"
         android:inputType="textPassword"
         android:padding="12dp"
         android:elevation="0dp"
@@ -96,7 +96,7 @@
         android:id="@+id/terms_checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="I Agree with Terms of Service and Privacy Policy"
+        android:text="@string/i_agree_with_terms_of_service_and_privacy_policy"
         android:textColor="#000000"
         android:textSize="14sp"
         android:buttonTint="@color/primary_dark"
@@ -108,12 +108,12 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp" />
 
-    <!-- Register Button -->
+
     <Button
         android:id="@+id/login_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Register"
+        android:text="@string/register"
         android:background="@drawable/rounded_button"
         android:backgroundTint="#DCA06D"
         android:textColor="#FFFFFF"
@@ -124,12 +124,12 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp" />
 
-    <!-- "Or sign in with" Text -->
+
     <TextView
         android:id="@+id/or_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Or sign in with"
+        android:text="@string/or_sign_in_with"
         android:textColor="#666666"
         android:textSize="14sp"
         app:layout_constraintTop_toBottomOf="@id/login_button"
@@ -137,7 +137,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="24dp" />
 
-    <!-- LinearLayout for Social Login Icons -->
+
     <LinearLayout
         android:id="@+id/social_login_container"
         android:layout_width="wrap_content"
@@ -149,7 +149,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp">
 
-        <!-- Google Icon -->
+
         <ImageView
             android:id="@+id/google_icon"
             android:layout_width="40dp"
@@ -170,6 +170,7 @@
             android:id="@+id/apple_icon"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:contentDescription="@string/apple"
             android:src="@drawable/apple" />
     </LinearLayout>
 
@@ -180,7 +181,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Don't have an account?"
+        android:text="@string/don_t_have_an_account"
         android:textColor="#000000"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -193,7 +194,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Sign In"
+        android:text="@string/sign_in"
         android:textColor="@color/primary_dark"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"

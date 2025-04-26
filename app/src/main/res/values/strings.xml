@@ -79,5 +79,11 @@
     <string name="register">Register</string>
     <string name="sign_in">Sign In</string>
     <string name="forgot_password">Forgot password?</string>
+    <string name="create_your_new_account">Create your new account</string>
+    <string name="create_an_account_to_start_looking_for_the_food_you_like">Create an account to start looking for the food you like</string>
+    <string name="user_name">User Name</string>
+    <string name="your_name">Your name</string>
+    <string name="i_agree_with_terms_of_service_and_privacy_policy">I Agree with Terms of Service and Privacy Policy</string>
+    <string name="apple">apple</string>
 
 </resources>
