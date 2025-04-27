@@ -7,18 +7,18 @@
     android:layout_height="match_parent"
     android:background="@color/backgroundclr"
     android:backgroundTint="@color/backgroundclr"
-    tools:context=".Onboard3">
+    tools:context="com.example.spendee.Onboard3">
 
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="388dp"
-        android:layout_height="538dp"
+        android:layout_width="577dp"
+        android:layout_height="604dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pic4" />
+        app:srcCompat="@drawable/growyoursavings" />
 
     <Button
         android:id="@+id/next"

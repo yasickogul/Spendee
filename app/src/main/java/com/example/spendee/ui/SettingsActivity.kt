@@ -15,6 +15,7 @@ import com.example.spendee.data.TransactionRepository
 
 import com.example.spendee.notification.NotificationManager
 
+@Suppress("DEPRECATION")
 class SettingsActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySettingsBinding
     private lateinit var preferencesManager: PreferencesManager

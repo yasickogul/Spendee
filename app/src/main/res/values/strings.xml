@@ -85,5 +85,7 @@
     <string name="your_name">Your name</string>
     <string name="i_agree_with_terms_of_service_and_privacy_policy">I Agree with Terms of Service and Privacy Policy</string>
     <string name="apple">apple</string>
+    <string name="signin">SignIn</string>
+    <string name="signup">SignUp</string>
 
 </resources>
