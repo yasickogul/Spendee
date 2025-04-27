@@ -35,6 +35,9 @@ class SignUp : AppCompatActivity() {
             if (email.isEmpty() || username.isEmpty() || password.isEmpty()) {
                 Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
+            }else if(password.length < 6){
+                Toast.makeText(this, "Password must be at least 6 characters long", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
             }
 
             with(sharedPref.edit()) {

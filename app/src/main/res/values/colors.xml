@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Base theme colors -->
-    <color name="primary">#0F6B63</color> <!-- vibrant red primary -->
-    <color name="primary_dark">#0A4E47</color> <!-- deeper shade of primary -->
-    <color name="primary_light">#4FA69C</color> <!-- lighter shade of primary -->
-    <color name="accent">#ffdf88</color> <!-- complementary cyan -->
-    <color name="accent_dark">#ffa55d</color> <!-- deeper cyan -->
+    <color name="primary">#0F6B63</color>
+    <color name="primary_dark">#0A4E47</color>
+    <color name="primary_light">#4FA69C</color>
+    <color name="accent">#ffdf88</color>
+    <color name="accent_dark">#ffa55d</color>
 
     <!-- Text colors -->
-    <color name="text_primary">#0A0F0E</color> <!-- deep teal-black for contrast -->
-    <color name="text_secondary">#3D5F5A</color> <!-- muted teal for secondary text -->
-    <color name="text_hint">#7E9995</color> <!-- soft teal-gray for hints -->
+    <color name="text_primary">#0A0F0E</color>
+    <color name="text_secondary">#3D5F5A</color>
+    <color name="text_hint">#7E9995</color>
     <color name="white">#FFFFFF</color>
 
     <!-- Background colors -->
-    <color name="background">#E6F2ED</color> <!-- soft minty background -->
+    <color name="background">#E6F2ED</color>
     <color name="backgroundclr">#E6F2ED</color>
     <color name="card_background">#FFFFFF</color>
-    <color name="divider">#D0ECE4</color> <!-- subtle teal divider -->
+    <color name="divider">#D0ECE4</color>
 
     <!-- Status colors -->
-    <color name="success">#10B981</color> <!-- fresh green -->
-    <color name="warning">#F59E0B</color> <!-- amber -->
-    <color name="error">#E63946</color> <!-- soft coral red -->
-    <color name="info">#3B82F6</color> <!-- bright blue -->
+    <color name="success">#10B981</color>
+    <color name="warning">#F59E0B</color>
+    <color name="error">#E63946</color>
+    <color name="info">#3B82F6</color>
 
     <!-- Transaction colors -->
-    <color name="income">#10B981</color> <!-- green -->
-    <color name="expense">#D97706</color> <!-- golden brown to match accent -->
+    <color name="income">#10B981</color>
+    <color name="expense">#D97706</color>
 
     <!-- Budget status colors -->
     <color name="budget_good">#10B981</color>
